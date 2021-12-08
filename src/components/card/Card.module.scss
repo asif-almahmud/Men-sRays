@@ -1,0 +1,10 @@
+@import "sass/index";
+
+.card_container {
+  width: 14rem;
+  height: 16rem;
+  margin: $padding_large;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  color: darken($color_secondary, 15%);
+}

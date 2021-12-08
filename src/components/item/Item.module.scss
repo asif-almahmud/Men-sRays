@@ -1,0 +1,32 @@
+@import "sass/index";
+
+.item_container {
+  margin: $margin_hr_medium;
+  cursor: pointer;
+  font-size: $fontSize_normal;
+  &:hover {
+    color: lighten($color_secondary, 10%);
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .item_container {
+    margin: $margin_hr_large;
+    margin-bottom: 0.75rem;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .item_container {
+    margin: $margin_hr_medium;
+    font-size: $fontSize_normal;
+    margin-bottom: 0.75rem;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .item_container {
+    margin: $margin_hr_small;
+    margin-bottom: 0.75rem;
+  }
+}
